@@ -1,0 +1,154 @@
+body {
+    background-image: url(../imagens/back3.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+body p{
+    text-indent: justify;
+}
+header{
+    background-color: rgb(218, 218, 218);
+    opacity: 0.85;
+    margin-top: -10px;
+    padding-bottom: 2px;
+}
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+    margin-bottom: 10px;
+    color: rgb(76, 86, 97);
+    opacity: 1;
+}
+header h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8pt;
+    margin-top:-10px;
+    color: rgb(76, 86, 97);
+    opacity: 1;
+}
+header h3{
+    font-size: 9pt;
+    position: absolute;
+    top: 5px;
+    left: 60%;
+    color: rgb(76, 86, 97);
+}
+nav#menuPrincipal ul{
+    background-color: rgb(137, 158, 180); 
+    list-style: none;
+    opacity: 0.8;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,.7);
+}
+nav#menuPrincipal li{
+    display: inline-block;
+    padding:7px;
+    margin-right: 50px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-size: 11pt;
+}
+section#corpoPrincipal{
+    text-align: center;
+    position: relative;
+    width:40%;
+    margin-left: 40px;
+    padding: 15px;
+    color: rgb(76, 86, 97);
+    background-color: rgb(238, 237, 237);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0,.6);
+    border-radius: 5px;
+}
+section#corpoPrincipal div#fotoIntrodutoria h1{ 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+section#corpoPrincipal div#fotoIntrodutoria p{ 
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+}
+div#beNice{
+    color:white;
+}
+section#fotosRoles ul#fotos{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+div#fofo {
+    position: absolute;
+    left: 44%;
+    top: 10%;
+}
+div#beNice{
+    position: absolute;
+    left: 55%;
+    top: 40%;
+}
+div#lembrete {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+}
+
+aside {
+    position: absolute; right:0; top:0px; left: 83%;
+    background-color: rgb(137, 158, 180); 
+    width: 15%;
+    padding: 5px;
+    opacity: 0.93;
+    box-shadow: 2px 2px 5px black;
+    margin-right: 0px;
+}
+aside#corpoLateral div#loginEcadastro{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    color: white;
+}
+aside#corpoLateral div#loginEcadastro h1{
+    font-size: 12pt;
+    text-align: center;
+}
+aside#corpoLateral ul li{
+    list-style: none;
+    padding: 10px;
+}
+aside#corpoLateral div#loginEcadastro p#sair{
+    text-align: right;
+}
+footer {
+    font-size: 9pt;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    text-align: center;
+    padding: 10px;
+
+}
+section#fotosRoles h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: rgb(218, 218, 218);
+}
+section#fotosRoles{
+    text-align: center;
+    position: relative;
+    display: block;
+    width:85%;
+    margin-left: 40px;
+    /*padding: 15px;*/
+    color: rgb(76, 86, 97);
+}
+section#fotosRoles ul#fotos li{
+    box-shadow: 1px 1px 7px black;
+    margin: 15px;
+    padding: 2px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
