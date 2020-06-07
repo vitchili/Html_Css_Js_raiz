@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outback</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <header>
+        <ul>
+            <li><img src="imagens/outback-logo.png" width="130px"></li>
+            <li>DELIVERY</li>
+            <li>CARDÁPIO</li>
+            <li>RESTAURANTES</li>
+            <li>GIFT<br>CARD</li>
+            <li>DESTAQUES</li>
+            <li>PESQUISA</li>
+            <li>FALE<br>CONOSCO</li>
+            <li>QUEM<br>SOMOS</li>
+            <li><img src="imagens/face.png" width="20px"></li>
+            <li><img src="imagens/insta.png" width="35px"></li>
+            <li id="quemSomos"><strong>MEU</strong><br><strong>OUTBACK</strong></li>
+        </ul>
+    </header>
+    <section id="corpo">
+        <div class="fotosInterativas">
+            <img src="imagens/capa1.jpeg" class="fotosInterativas" id="fotoAtual">
+            <input type="button" value="" class="botaoFoto" onclick="mudaFoto(1)">
+            <input type="button" value="" class="botaoFoto" onclick="mudaFoto(2)">
+            <input type="button" value="" class="botaoFoto" onclick="mudaFoto(3)">
+        </div>
+        <div class="fotosInterativas">
+            <img class="fotosInterativas" src="imagens/delivery.jpeg">
+        </div>
+        <div id="giftCard">
+            <img src="imagens/giftcard.png" width="500px">
+        </div>
+        <div id="giftTexto">
+            <ul>
+                <li>
+                    <h1>GIFT CARD<BR>OUTBACK</h1>
+                    <h2>Dê um #Momento Outback de presente!</h2>
+                    <input type="button" value="ACESSE" id="botoes">
+                </li>
+                <li>
+                    <h1>PESQUISA DE<BR>SATISFAÇÃO</h1>
+                    <h2>Compartilhe sua experiência com a gente!</h2>
+                    <input type="button" value="ACESSE" id="botoes">
+                </li>
+                <li>
+                    <h1>VEJA O<BR>CARDAPIO</h1>
+                    <h2>Confira nossos pratos mais icônicos e deliciosos</h2>
+                    <input type="button" value="ACESSE" id="botoes">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <br>
+    <div id="encontrarLojas">
+        <h3>ENCONTRE O OUTBACK MAIS PRÓXIMO</h3>
+        <input type="button" value="PROCURAR NOSSAS LOJAS" id="botaoProcuraLoja">
+    </div>
+    <br>
+    <footer>
+        Copyright &copy 2018 <strong>Outback Steakhouse</strong>
+        <ul>
+            <li>Termos de uso</li>
+            <li>Sala de Imprensa</li>
+            <li>Carreiras</li>
+        </ul>
+    </footer>   
+</body>
+<script src="script.js"></script>
+</html>
